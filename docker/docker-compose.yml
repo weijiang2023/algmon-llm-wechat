@@ -1,8 +1,8 @@
 version: '2.0'
 services:
   chatgpt-on-wechat:
-    image: zhayujie/chatgpt-on-wechat
-    container_name: chatgpt-on-wechat
+    image: weijiang2023/algmon.llm.wechat
+    container_name: algmon.llm.wechat
     security_opt:
       - seccomp:unconfined
     environment:
